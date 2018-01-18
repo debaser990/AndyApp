@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="25dp"
+    android:layout_height="match_parent">
+<EditText
+    android:hint="enter some text"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:id="@+id/et"
+    />
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="100"
+    android:orientation="horizontal"
+        android:weightSum="1">
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:checked="true"
+        android:layout_width="162dp"
+        android:layout_height="76dp"
+        android:id="@+id/togbutton"
+        android:layout_weight="0.16" />
+
+    <Button
+        android:text="try"
+        android:layout_width="150dp"
+        android:layout_height="89dp"
+        android:id="@+id/Trybutton"
+         />
+    </LinearLayout>
+    <TextView
+        android:text="invalid"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="202dp"
+        android:id="@+id/textView" />
+</LinearLayout>
